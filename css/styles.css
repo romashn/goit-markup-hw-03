@@ -260,15 +260,25 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
 }
 .filter-item-button:focus,
 .filter-item-button:hover {
   color: var(--main-background-color);
   background: var(--button-hoover);
 }
+.filter-menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .examples-item {
   background: var(--main-background-color);
   border: 1px solid var(--button-border-color);
+}
+.portfolio-section {
+  padding: 96px 0 120px;
 }
 /* ==========================PORTFOLIO========================== */
 
