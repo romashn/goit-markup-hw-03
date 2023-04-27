@@ -19,23 +19,65 @@ body {
 .list {
   list-style: none;
   color: var(--secondary-color);
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  outline: 2px solid tomato;
+  outline-offset: -2px;
+}
 /* ========================COMMON========================== */
 
 /* ========================HEADER========================== */
+.header {
+  border-bottom: 1px solid var(--button-border-color);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-color);
+  margin-right: 76px;
 }
 .logo-text-header {
   color: var(--secondary-color);
@@ -46,6 +88,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  padding: 24px 0;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts {
   font-size: 16px;
@@ -118,7 +166,6 @@ body {
 .hero {
   background-color: var(--secondary-color);
   height: 600px;
-  width: 1440px;
 }
 .abilities {
   font-weight: 500;
@@ -189,7 +236,6 @@ body {
   color: var(--second-background-color);
 }
 .footer-section {
-  width: 1440px;
   height: 312px;
   left: 0px;
   top: 2280px;
