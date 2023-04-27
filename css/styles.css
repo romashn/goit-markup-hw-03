@@ -38,7 +38,7 @@ img {
   display: block;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -114,6 +114,9 @@ img {
 /* ========================HEADER========================== */
 
 /* =========================HERO=========================== */
+.hero-div {
+  padding: 188px 0;
+}
 .hero-button {
   padding: 16px 32px;
   background: var(--button-color);
@@ -127,6 +130,10 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -162,6 +169,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-background-color);
+  max-width: 496px;
 }
 .hero {
   background-color: var(--secondary-color);
