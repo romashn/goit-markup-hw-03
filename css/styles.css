@@ -148,6 +148,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
+  margin-bottom: 72px;
 }
 .names {
   font-weight: 500;
@@ -156,9 +157,15 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  margin-bottom: 8px;
 }
 .team-section {
   background: var(--second-background-color);
+  padding: 120px 0;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .hero-text {
   font-weight: 700;
@@ -199,6 +206,17 @@ img {
   letter-spacing: 0.02em;
   color: var(--body-color);
 }
+.doing-section {
+  padding-bottom: 120px;
+}
+.doing-list {
+  display: flex;
+  gap: 24px;
+}
+.doing-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .team-card {
   display: flex;
   flex-direction: column;
@@ -209,6 +227,10 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.position-block {
+  padding: 32px 16px;
 }
 /* ==names-position used in portfolio.html also */
 .names-position {
