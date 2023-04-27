@@ -273,6 +273,17 @@ img {
 /* ==========================PORTFOLIO========================== */
 
 /* =========================FOOTER=========================== */
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-text-footer {
   color: var(--second-background-color);
 }
@@ -281,6 +292,7 @@ img {
   left: 0px;
   top: 2280px;
   background: var(--secondary-color);
+  padding: 100px 0;
 }
 .footer-text {
   width: 264px;
