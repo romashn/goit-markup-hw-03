@@ -43,7 +43,17 @@ img {
   padding: 0 15px;
 }
 .hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* ========================COMMON========================== */
 
@@ -136,7 +146,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin: 48px auto;
+  margin: 48px auto 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
