@@ -32,7 +32,7 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -41,6 +41,9 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.hidden {
+  display: none;
 }
 /* ========================COMMON========================== */
 
@@ -85,6 +88,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  display: block;
   padding: 24px 0;
 }
 .contacts-list {
@@ -111,7 +115,10 @@ img {
 /* ========================HEADER========================== */
 
 /* =========================HERO=========================== */
-
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .hero-button {
   padding: 16px 32px;
   background: var(--button-color);
@@ -129,6 +136,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 48px auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -215,11 +223,6 @@ img {
 }
 
 .team-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
   background: var(--main-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -289,6 +292,20 @@ img {
 .portfolio-section {
   padding: 96px 0 120px;
 }
+.examples-names {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+.examples-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
 /* ==========================PORTFOLIO========================== */
 
 /* =========================FOOTER=========================== */
@@ -322,5 +339,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-background-color);
+  margin: 0;
 }
 /* =========================FOOTER=========================== */
